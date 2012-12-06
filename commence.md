@@ -14,3 +14,6 @@ Download and install git from [git-scm.org](http://git-scm.org/downloads)
         git config --global user.name "John Doe"
         git config --global user.email johndoe@example.com
 
+1. You'd best choose your editor and set it. Otherwise you'll probably be thrown into vi, and you might drown.
+        git config --global core.editor textedit
+    Change textedit to your editor of choice. The GIT_EDITOR environment variable, if set, will override this.      
