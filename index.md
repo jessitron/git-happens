@@ -14,4 +14,15 @@ As a follow-up to Git Happens, step through your git repository. This site is in
 * TODO: [Copy someone else's](fork.html) - fork a repository from github
 * todo: [Join the team](clone.html) - clone a repository from work
 * TODO:[Hide your eyes](ignore.html)
+* TODO: [Branching](branch.html)
+* TODO: [Switching to another branch](switchBranch.html)
+* TODO: [Bringing in changes](decide.html)
+* TODO: [Rebase](rebase.html)
+* TODO: [Merge] (merge.html)
+
+## general to-dos
+
+* make header not float
+* put link back to here in header
+* put link back to here in footer
 
