@@ -1,3 +1,8 @@
+---
+layout: default
+saying: Let's roll around in it together.
+---
+
 # Git Dojo: Plan
 
 ## Introduction. 
@@ -18,18 +23,18 @@
 * commit
 
 ## Oh crap, I should have done that on a branch
-* git branch adding<NewPage>
+* git branch addingNewPage
 * git reset HEAD^
 * demonstrate git reset --hard
 * create the new page
 
 ## Oh crap, I meant to do that on the new branch
 * git stash save
-* git checkout <new branch>
+* git checkout &lt;new branch&gt;
 * git stash pop
 * commit
 
-## Add a link to this new page in ___
+## Add a link to this new page in ... some page
 * While we're in there, we see a TODO or a typo
 * update the todo.
 * Add the page.

@@ -9,6 +9,13 @@ saying: Might as well run with it.
 
 As a follow-up to Git Happens, step through your git repository. This site is intended to tell you what to type, but also to give explanation of what is happening and why.
 
+
+# Git Dojo
+If you want to follow along on the dojo, here is [the original plan](dojo.html). 
+
+
+# Useful pages
+
 * [Commence](commence.html) - configuration
 * [Do your own work](init.html) - start a local repository
 * TODO: [Copy someone else's](fork.html) - fork a repository from github
