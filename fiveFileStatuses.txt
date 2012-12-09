@@ -1,0 +1,54 @@
+Git, the many parts: five categories of files and changes
+
+If you've ever been burned by stash not stashing everything you wanted it to stash, or reset --hard not reseting everything you wanted to reset, then this post is for you.
+
+I used to think there were three places that files can be in git: the working directory, the index, and the repository.
+
+-- picture of my three trees --
+
+I think of them like this: you make your changes, then you put some of them on a pallet (the staging area), and when you're satisfied with how the pallet looks, you wrap 'em up and load 'em on a truck (the commit). That's when they get a label (the 40-digit hex string that identifies the commit), and when you're ready to share them, you send the truck on its way (push).
+
+-- picture of three places --
+
+Three places for files, it's one more than subversion, but not so bad. However, after much confusion and cursing, I have learned that there are at least five. 
+
+To start with, take a look at git status:
+
+-- picture of git status with boxes --
+
+Git status compares the staging area and the working directory with the most recent commit (HEAD).
+This shows changes that are staged, modified, and untracked. 
+
+What is the difference between modified and untracked? Ay, there's the rub. Untracked files do not exist at all in the HEAD commit.
+
+-- picture of five places. --
+
+We know about files that are committed; they're saved in the repository. We know about files that are staged; they're ready to go in the next commit. Files that have local changes are in the modified category, and they're not weird. Let's zoom in on the two new designations.
+
+Untracked files are new to git -- that is, they're not in the HEAD commit; they could be in some commit somewhere. Git assumes no responsibility for these files. They're in an unstable state and I recommend moving them asap. Here are your options:
+
+1. git add to put them in the staging area. This tells git to care about them. From here, you can stash them or commit them. IntelliJ IDEA asks me, when I create a new file, "Do you want to add this to git?" I used to tell it, no, go away and leave me alone! But now I realize that my IDE was right: it's better to have these files in the staging area than in this never-never-land of untrackedness.
+
+2. Ignore them. Here you have two more options:
+    1. Ignore them in this repository. Do this if they're specific to the project. Maybe they're a node module install, or they're generated output of the build. If everyone on the team should be ignoring these files, and you never want to see someone accidentally commit them, do this. 
+    2. Ignore them in every repository that you personally commit to. If your favored editor creates .swp files or your operating system creates .DS_Store files, you want to add those to your personal global list of exclusions.
+
+Here is more information, including details on how to ignore the files: http://jessitron.github.com/git-happens/ignore.html
+
+It's a good idea to get those files right into ignored status before ever committing them. If you decide to ignore files after they're committed, they wind up in two states at the same time: modified and ignored. Use git rm on them to rectify this.
+
+What if untracked files show up when you least expect it?
+
+This happens to me when .gitignore is different in different branches. Rectify this ASAP. (This is a good time to say, "Ooh, I can use cherry-pick!")
+
+Sometimes when I'm trying to get my repo to match HEAD, I want those untracked files to go away dammit. The command for that is:
+
+ git clean -df
+
+The -d says "yes, directories too dammit" and the -f says "no really, freaking delete the untracked files." By default, git clean will refuse to do any work unless you curse at it with -f. You can change this permanently with configuration:
+
+git config --global clean.requireForce false
+
+That tells git clean "do your job when I call you."
+
+In summary: untracked files are your enemy. Ignore what should be ignored, and get the good ones into the staging area right away.
