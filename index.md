@@ -34,4 +34,5 @@ If you want to follow along on the dojo, here is [the original plan](dojo.html).
 * make header not float
 * put link back to here in header
 * put link back to here in footer
+* mess up
 
