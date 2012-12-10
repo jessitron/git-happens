@@ -15,6 +15,8 @@ saying: Let's roll around in it together.
   * `gem install jekyll`
 
 ## Setup
+* open your browser to http://jessitron.github.com/git-happens/dojo.html
+* the repo for this site is at https://github.com/jessitron/git-happens
 * we will add a few people as committers
   * add to index.md the name of a page that they'd like to see covered
   * push your changes
