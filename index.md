@@ -5,7 +5,7 @@ saying: Might as well run with it.
 
 # Learn about git 
 
- todo: link to Vimeo
+[Vimeo Awesomesauce](http://vimeo.com/3718294)
 
 As a follow-up to Git Happens, step through your git repository. This site is intended to tell you what to type, but also to give explanation of what is happening and why.
 
