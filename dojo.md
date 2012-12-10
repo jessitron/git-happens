@@ -25,7 +25,8 @@ Git Dojo is one session where the more that goes wrong in the demo, the better. 
   * push your changes
 * everyone else should [fork](fork.html) the repository and do what you like. You can
 look for TODO or add to the list of pages you'd like to see
-* clone the repository
+* clone your forked repository
+* `git clone https://github.com/<YOUR_NAME>/git-happens.git`
 * [configure git](commence.html)
 
 ## Make a commit
