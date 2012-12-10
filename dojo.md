@@ -8,14 +8,14 @@ saying: Let's roll around in it together.
 ## Introduction. 
 * github
 * gh-pages
-** branches (own initial commit, what's that called)
-** site
+  * branches (own initial commit, what's that called)
+  * site
 * jekyll
 
 ## Setup
 * add a few people as committers
-** Tell them to make some changes and push: in particular, add to index.html the name of a page that they'd like to see added
-** tell the others to fork and do what they like. They can look for TODO or add to the list of pages they'd like to see
+  * Tell them to make some changes and push: in particular, add to index.html the name of a page that they'd like to see added
+  * tell the others to fork and do what they like. They can look for TODO or add to the list of pages they'd like to see
 * clone the repository
 
 ## Make a commit
