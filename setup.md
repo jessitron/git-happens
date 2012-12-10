@@ -13,10 +13,7 @@ TODO: will brew fetch it for you?
 
 ## GUI client
 
-If you're on a Mac, it's worth the time to install gitx. TODO: link
-This will let you view your commit tree in a pretty format.
-
-There's also gitk, which comes with git. It works, but it is not as pretty or as easy to read.
+`gitk` comes with git. This will let you view your commit tree in a pretty format.
 
 ## Github sites
 

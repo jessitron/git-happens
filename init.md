@@ -43,6 +43,6 @@ Before you can commit anything, you have to stage it. This is like putting a pie
 
 If the staging area is a pallet, then committing puts that pallet on the truck.
 
-Now your repository is properly initialized. Run [gitx](http://gitx.frim.nl/) or gitk and check out your little commit tree. More of a commit seed, at this point: one little commit and a master branch pointer.
+Now your repository is properly initialized. Run gitk and check out your little commit tree. More of a commit seed, at this point: one little commit and a master branch pointer.
 
 That's the minimum for creating a local repository. Let's put more thought into our repo, and [ignore some files](ignore.html)
