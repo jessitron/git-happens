@@ -15,12 +15,12 @@ If you want to follow along on the dojo, here is [the original plan](dojo.html).
 
 * [Setup](setup.html) - recommended downloads
 * [Commence](commence.html) - configuration
-* TODO (James): [Grab a repo](fork.html) - fork a repository from github
+* [Grab a repo](fork.html) - fork a repository from github
 * [Make some changes](status.html) - and see them in Git Status
 
 # Useful pages
 
-* TODO: [Hide your eyes](ignore.html)
+* [Hide your eyes](ignore.html)
 * TODO: [Branching](branch.html)
 * TODO: [Switching to another branch](switchBranch.html)
 * TODO: [Bringing in changes](decide.html)
