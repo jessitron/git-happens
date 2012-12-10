@@ -11,13 +11,15 @@ saying: Let's roll around in it together.
   * branches (own initial commit, what's that called)
   * site
 * jekyll
-  * gem install jekyll (requires Ruby)
+  * if you have Ruby installed
+  * `gem install jekyll`
 
 ## Setup
-* add a few people as committers
-  * tell them to make some changes and push: in particular, add to
-index.md the name of a page that they'd like to see added
-  * tell the others to fork and do what they like. They can look for TODO or add to the list of pages they'd like to see
+* we will add a few people as committers
+  * add to index.md the name of a page that they'd like to see covered
+  * push your changes
+* everyone else should [fork](fork.html) the repository and do what you like. You can
+look for TODO or add to the list of pages you'd like to see
 * clone the repository
 * [configure git](commence.html)
 

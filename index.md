@@ -20,7 +20,7 @@ If you want to follow along on the dojo, here is [the original plan](dojo.html).
 
 # Useful pages
 
-* TODO:[Hide your eyes](ignore.html)
+* TODO: [Hide your eyes](ignore.html)
 * TODO: [Branching](branch.html)
 * TODO: [Switching to another branch](switchBranch.html)
 * TODO: [Bringing in changes](decide.html)
