@@ -24,7 +24,7 @@ The Github apps for Mac and Windows provide an easy-peasy interface to git, but 
 
 ## Github
 
-Create a github user. (http://github.com) This will let you copy everyone else's repositories.
+Create a [github](http://github.com) user. This will let you copy everyone else's repositories.
 
 ## Github pages
 
