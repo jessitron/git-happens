@@ -13,10 +13,11 @@ Git Dojo is one session where the more that goes wrong in the demo, the better. 
   * orphan branch
   * markdown
   * jekyll
-    * if you have Ruby installed `gem install jekyll`
+    * if you have Ruby installed
+    * `gem install jekyll`
 
 ## Setup
-* Download git: http://git-scm.com/downloads
+* download git: http://git-scm.com/downloads
 * open your browser to http://jessitron.github.com/git-happens
 * the repo for this site is at https://github.com/jessitron/git-happens
 * we will add a few people as committers
