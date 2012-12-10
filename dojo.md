@@ -34,27 +34,27 @@ look for TODO or add to the list of pages you'd like to see
 * commit
 
 ## Oh crap, I should have done that on a branch
-* git branch addingNewPage
-* git reset HEAD^
-* git reset --hard
+* `git branch addingNewPage`
+* `git reset HEAD^`
+* `git reset --hard`
 * create the new page, change something else
 
 ## Oh crap, I meant to do that on the new branch
-* git stash save
-* git checkout &lt;new branch&gt;
-* git stash pop
+* `git stash save`
+* `git checkout <NEW_BRANCH>`
+* `git stash pop`
 * commit
 
 ## Add a link to this new page in ... some page
 * while we're in there, we see a TODO or a typo
-* update the todo.
-* Add the page.
-* save.
+* update the todo
+* add the page
+* save
 
 ## Oh crap, that small change should be in its own commit
-* git add -p
+* `git add -p`
 * commit
-* git add
+* `git add`
 * commit
 
 ## Make another change
@@ -62,14 +62,14 @@ look for TODO or add to the list of pages you'd like to see
 * commit
 
 ## fetch the latest
-* git fetch
+* `git fetch`
 * make sure someone else has pushed
 * checkout the main branch
-* git merge (see that it does a fast-forward)
+* `git merge` (see that it does a fast-forward)
 
 ## rebase our branch in, interactively
-* git checkout newBranch
-* git rebase -i gh-pages
+* `git checkout newBranch`
+* `git rebase -i gh-pages`
 * put the small todo/typo fix at the beginning
 * squash the new page into the one that added it to the index
 * accidentally delete the other commit
@@ -77,8 +77,8 @@ look for TODO or add to the list of pages you'd like to see
 * look at the result
 
 ## oh crap, I lost a commit!
-* use git reflog to find the one we're missing
-* git cherry-pick &lt;commit we want&gt;
+* use `git reflog` to find the one we're missing
+* `git cherry-pick <COMMIT_WE_WANT>`
 
 ## merge a pull request
 * make sure it's one that will create conflicts
@@ -86,9 +86,10 @@ look for TODO or add to the list of pages you'd like to see
 ## try to push our changes
 * oh crap, it won't go
 * fetch again
-* try to rebase. Notice conflicts, get frustrated.
-* git rerere remembers merges so you never have to do the same one twice: `git config --global rerere.enabled true`
-* rebase --abort
+* try to rebase. Notice conflicts. Get frustrated.
+* `git rebase --abort`
+* git rerere remembers merges so you never have to do the same one twice:
+* `git config --global rerere.enabled true`
 
 ## merge our changes in
 * set up the mergetool first
