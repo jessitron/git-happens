@@ -21,6 +21,10 @@ Download and install git from [git-scm.org](http://git-scm.org/downloads)
 
     Change `textedit` to your editor of choice. The GIT_EDITOR environment variable, if set, will override this.  This editor is launched whenever git wants you to create or edit a commit message, or for an interactive rebase.
 
+1. Git is more fun with colours.
+
+        git config --global color.ui auto
+
 ## Choose your own adventure
 
 Do you want to [create your own repo locally](init.html) or [copy someone else's repo](fork.html)?

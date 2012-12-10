@@ -5,21 +5,24 @@ saying: Let's roll around in it together.
 
 # Git Dojo: Plan
 
-## Introduction. 
+## Introduction
 * github
 * gh-pages
   * branches (own initial commit, what's that called)
   * site
 * jekyll
+  * gem install jekyll (requires Ruby)
 
 ## Setup
 * add a few people as committers
-  * Tell them to make some changes and push: in particular, add to index.html the name of a page that they'd like to see added
+  * tell them to make some changes and push: in particular, add to
+index.md the name of a page that they'd like to see added
   * tell the others to fork and do what they like. They can look for TODO or add to the list of pages they'd like to see
 * clone the repository
+* [configure git](commence.html)
 
 ## Make a commit
-* Add a new page to the list in index.md
+* add a new page to the list in index.md
 * commit
 
 ## Oh crap, I should have done that on a branch
@@ -35,7 +38,7 @@ saying: Let's roll around in it together.
 * commit
 
 ## Add a link to this new page in ... some page
-* While we're in there, we see a TODO or a typo
+* while we're in there, we see a TODO or a typo
 * update the todo.
 * Add the page.
 * save.
@@ -56,7 +59,7 @@ saying: Let's roll around in it together.
 * merge-ff
 
 ## rebase our branch in, interactively
-* Put the small todo/typo fix at the beginning
+* put the small todo/typo fix at the beginning
 * squash the new page into the one that added it to the index
 * accidentally delete the other commit
 * look at the result
@@ -71,7 +74,7 @@ saying: Let's roll around in it together.
 ## try to push our changes
 * oh crap, it won't go
 * fetch again
-* try to rebase. Notice conflicts, get frustrated
+* try to rebase. Notice conflicts, get frustrated.
 * mention git rerere
 * rebase --abort
 
@@ -79,6 +82,6 @@ saying: Let's roll around in it together.
 * set up the difftool first
 * use it to resolve conflicts
 * complete the merge. Look at the tree.
-* push.
+* push
 
 
