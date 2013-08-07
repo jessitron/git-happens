@@ -5,9 +5,13 @@ saying: Might as well run with it.
 
 # Learn about git 
 
-[Vimeo Awesomesauce](http://vimeo.com/3718294)
+<iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/46010208">Git Happens</a> from <a href="http://vimeo.com/stljs">Saint Louis JavaScript Meetup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-As a follow-up to Git Happens, step through your git repository. This site is intended to tell you what to type, but also to give explanation of what is happening and why.
+I promise in this talk that many sources on the Internet will tell you what to type. This is one of them.
+
+# For your sanity
+Tell git to "do things right" before you even start using it.
+[Configuration](configuration.html)
 
 
 # Git Dojo
