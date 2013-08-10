@@ -3,40 +3,37 @@ layout: default
 saying: Might as well run with it.
 ---
 
-# Learn about git 
+<iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0"></iframe>
+[Git Happens](http://vimeo.com/46010208) from [Saint Louis JavaScript Meetup](http://vimeo.com/stljs) on [Vimeo](https://vimeo.com).
 
-<iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/46010208">Git Happens</a> from <a href="http://vimeo.com/stljs">Saint Louis JavaScript Meetup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+I promise in this talk that many sources on the Internet will tell you
+what to type. Here are some of them.
 
-I promise in this talk that many sources on the Internet will tell you what to type. This is one of them.
+# Concepts
 
-# For your sanity
-Tell git to "do things right" before you even start using it.
-[Configuration](configuration.html)
+# Setup
 
+# Reference
 
-# Git Dojo
-If you want to follow along on the dojo, here is [the original plan](dojo.html). 
+The question that triggered my investigation of git was, "I wish I had
+made this commit on a different branch. How do I move it?" The answer
+is:
 
-* [Setup](setup.html) - recommended downloads
-* [Commence](commence.html) - configuration
-* [Grab a repo](fork.html) - fork a repository from github
-* [Make some changes](status.html) - and see them in Git Status
+   git branch new-branch
+This creates a pointer for the new branch, at the current commit.
+Then when I have the old branch checked out, and git status is clean (no
+unsaved changes in my working directory):
 
-# Useful pages
+   git reset --hard HEAD^
+This moves the current branch pointer back one. HEAD^ means "The parent
+of the current HEAD commit" and --hard means "also make the files in the
+working directory match the newly pointed-to commit"
 
-* [Hide your eyes](ignore.html)
-* TODO: [Branching](branch.html)
-* TODO: [Switching to another branch](switchBranch.html)
-* TODO: [Bringing in changes](decide.html)
-* TODO: [Rebase](rebase.html)
-* TODO: [Merge] (merge.html)
-* [Do your own work](init.html) - start a local repository
-* todo: [Join the team](clone.html) - clone a repository from work
+At the end of this, my changes are on the new branch, and my repository
+is set to the old branch, before that last commit.
 
-## general to-dos
+Slides for Git Happens: [Git Happens
+Prezi](http://prezi.com/xdvra221hg1n/git-happens/)
 
-* make header not float
-* put link back to here in header
-* put link back to here in footer
-* mess up
-
+Follow me on twitter: [@jessitron](http://twitter.com/jessitron)
+or read my blog: [Abstractivate](http://blog.jessitron.com)
