@@ -567,7 +567,8 @@ a small {
 }
 
 ul {
-  list-style-image: url("../images/bullet.png");
+  list-style: none;
+  list-style-image: none;
 }
 
 strong {
