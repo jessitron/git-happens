@@ -3,17 +3,18 @@ layout: default
 saying: Might as well run with it.
 ---
 
-<iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0"></iframe>
-[Git Happens](http://vimeo.com/46010208) from [Saint Louis JavaScript Meetup](http://vimeo.com/stljs) on [Vimeo](https://vimeo.com).
-
-I promise in this talk that many sources on the Internet will tell you
-what to type. Here are some of them.
-
 # Concepts
 
 # Setup
 
 # Reference
+
+I promise in this talk that many sources on the Internet will tell you
+what to type. Here are some of them.
+
+<iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0">do things right</iframe>
+[Git Happens](http://vimeo.com/46010208) from [Saint Louis JavaScript Meetup](http://vimeo.com/stljs) on [Vimeo](https://vimeo.com).
+
 
 The question that triggered my investigation of git was, "I wish I had
 made this commit on a different branch. How do I move it?" The answer
@@ -37,3 +38,6 @@ Prezi](http://prezi.com/xdvra221hg1n/git-happens/)
 
 Follow me on twitter: [@jessitron](http://twitter.com/jessitron)
 or read my blog: [Abstractivate](http://blog.jessitron.com)
+
+
+
