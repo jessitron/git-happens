@@ -7,7 +7,6 @@ saying: Come out smelling like roses.
 
 Git happens in a directory, and all files and subdirectories are (by default) saved in the repo.
 
-
 ## Choose wisely
 
 Go to root directory of your project. This becomes the *working directory* of your project.
