@@ -23,4 +23,5 @@ saying: Workshop
 
 ## Exercises after part 2:
    * [Commit date != author date](exercises/commitDate.html)
+   * [Amend a commit](exercises/amend.html)
 
