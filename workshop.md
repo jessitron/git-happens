@@ -25,3 +25,5 @@ saying: Workshop
    * [Commit date != author date](exercises/commitDate.html)
    * [Amend a commit](exercises/amend.html)
 
+# Further resources
+are listed on the [Git Happens](index.html) page
