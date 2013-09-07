@@ -1,7 +1,7 @@
------
+---
 layout: default
 saying: with or without you
------
+---
 
 # Exercise 1.2: Configuration
 
