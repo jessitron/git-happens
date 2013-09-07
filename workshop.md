@@ -8,21 +8,19 @@ saying: Workshop
 * Part 1: concepts, vocabulary, and the local repository
    * Prezi
    * Exercises
-   * A solution
+   * [Get off the happy path together](exercises/untrackedFiles.md)
 * Part 2: remotes, rebases, and changing history
    * Prezi
    * Exercises
-   * A solution
+   * Get off the happy path together
 * Part 3: workflows
    * Slides
 
 
-# Exercises after part 1:
+## Exercises after part 1:
    * [Moving commits to a branch](exercises/moveToBranch.html)
    * [Playing around with config](exercises/playWithConfig.html)
 
-# Exercises after part 2:
+## Exercises after part 2:
    * [Commit date != author date](exercises/commitDate.html)
-   * [Amending a commit](exercises/amend.html)
-   * [Play around with upstream](exercises/upstream.html)
-   * [Remember merge resolution](exercises/rerere.html)
+
