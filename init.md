@@ -6,10 +6,11 @@ saying: Come out smelling like roses.
 # Create your own repository
 
 Git happens in a directory, and all files and subdirectories are (by default) saved in the repo.
+if you haven't installed git yet, [please do](http://git-scm.com/downloads)
 
 ## Choose wisely
 
-Go to root directory of your project. This becomes the *working directory* of your project.
+Go to what will be the root directory of your project. This becomes the *working directory* of your project.
 
 > Please do not do this from your home directory, or from /, or from C:/. You will regret it. If you're playing around with git, create a directory and go there.
 
@@ -41,6 +42,9 @@ Before you can commit anything, you have to stage it. This is like putting a pie
    git commit -m "Initial commit"
 
 If the staging area is a pallet, then committing puts that pallet on the truck.
+
+(If it complains about your username and email configuration, please
+follow its instructions.)
 
 Now your repository is properly initialized. Run gitk and check out your little commit tree. More of a commit seed, at this point: one little commit and a master branch pointer.
 
