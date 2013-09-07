@@ -1,6 +1,6 @@
------
+---
 layout: illuminated
------
+---
 
 ## Commit date != author date
 Make a commit with an author date that is different from its commit

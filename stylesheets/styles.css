@@ -512,6 +512,7 @@ body {
   margin: 0px;
   padding: 0px 0 20px 0px;
   background: url(../images/body-background.png) #eae6d1;
+  /*background: url(../images/sun_bg_large.jpg) #eae6d1;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -670,7 +671,7 @@ dt {
 }
 
 header {
-  padding: 25px 20px 40px 20px;
+  padding: 25px 20px 27px 20px;
   margin: 0;
   width: 100%;
   text-align: center;
@@ -684,7 +685,7 @@ header {
   min-height: 76px;
 }
 header h1 {
-  font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 51px/62px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f3f3f3;
   text-shadow: 0px 2px 0px #235796;
   margin: 0px;
@@ -693,9 +694,17 @@ header h1 {
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
   -ms-text-overflow: ellipsis;
+
 }
+
+header h1 a {
+  color: rgba(220, 246, 30, 0.71);
+  font-weight: 400;
+  text-decoration: none;
+}
+
 header p {
-  color: #d8d8d8;
+  color: rgba(36, 57, 170, 0.84);
   text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
   font-size: 18px;
   margin: 0px;

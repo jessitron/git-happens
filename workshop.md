@@ -1,6 +1,7 @@
------
+---
 layout: illuminated
------
+saying: Workshop
+---
 
 # Agenda
 
