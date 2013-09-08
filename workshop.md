@@ -6,15 +6,15 @@ saying: Workshop
 # Agenda
 
 * Part 1: concepts, vocabulary, and the local repository
-   * Prezi
+   * [Prezi](http://prezi.com/m_s_g83sgja4/git-illuminated-part-1/)
    * Exercises
-   * [Get off the happy path together](exercises/untrackedFiles.md)
+   * [Get off the happy path](exercises/untrackedFiles.md)
 * Part 2: remotes, rebases, and changing history
-   * Prezi
+   * [Prezi](http://prezi.com/ohbicklatr7y/git-illuminated-part-2/)
    * Exercises
    * Get off the happy path together
 * Part 3: workflows
-   * Slides
+   * [Slides](http://www.slideshare.net/jessitron/3-workflow)
 
 
 ## Exercises after part 1:
