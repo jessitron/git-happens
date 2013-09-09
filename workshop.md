@@ -21,6 +21,7 @@ If you've not used git before, consider spending an hour:
   * Exercises
   * Get off the happy path
 * Part 3: workflows
+
   * [Slides](http://www.slideshare.net/jessitron/3-workflow)
 
 
