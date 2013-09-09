@@ -1,6 +1,6 @@
------
+---
 layout: illuminated
------
+---
 
 ## Play with Configuration
 

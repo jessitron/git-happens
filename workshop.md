@@ -25,12 +25,12 @@ If you've not used git before, consider spending an hour:
 
 
 ## Exercises after part 1:
-   * [Moving commits to a branch](exercises/moveToBranch.html)
-   * [Playing around with config](exercises/playWithConfig.html)
+   * [Moving commits to a branch](exercises_moveToBranch.html)
+   * [Playing around with config](exercises_playWithConfig.html)
 
 ## Exercises after part 2:
-   * [Commit date != author date](exercises/commitDate.html)
-   * [Amend a commit](exercises/amend.html)
+   * [Commit date != author date](exercises_commitDate.html)
+   * [Amend a commit](exercises_amend.html)
 
 # Further resources
 are listed on the [Git Happens](index.html) page

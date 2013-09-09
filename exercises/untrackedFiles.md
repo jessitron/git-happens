@@ -1,6 +1,6 @@
------
+---
 layout: illuminated
------
+---
 
 ## Exploring untracked files
 

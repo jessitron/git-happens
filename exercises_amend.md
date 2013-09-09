@@ -1,6 +1,6 @@
------
+---
 layout: illuminated
------
+---
 
 ## Exercise: amend a commit
 
