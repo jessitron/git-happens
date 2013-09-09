@@ -1,7 +1,14 @@
 ---
 layout: illuminated
-saying: Workshop
 ---
+
+# Prep
+This workshop is not Your First Git Repository.
+To get the most out of it, you should know how to do the basic everyday
+git operations: init, add, commit, push, pull, branch, merge.
+If you've not used git before, consider spending an hour:
+   * [Install git](http://git-scm.com/downloads)
+   * Work through Lab 10 or farther in [Git Immersion](http://gitimmersion.com)
 
 # Agenda
 
