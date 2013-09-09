@@ -4,7 +4,7 @@ layout: illuminated
 
 ## Setup
 ### Create a local repository
-If you don't know how, check [these instructions](../init.html)
+If you don't know how, check [these instructions](init.html)
 
 ### Make a few commits
 Edit a file, add your changes, and commit. For instance:
