@@ -38,7 +38,7 @@ Any of these can show you the commit graph.
 
 -----------
 
- iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0">do things right</iframe>
+<iframe src="http://player.vimeo.com/video/46010208" width="500" height="281" frameborder="0">do things right</iframe>
 [Git Happens](http://vimeo.com/46010208) from [Saint Louis JavaScript Meetup](http://vimeo.com/stljs) on [Vimeo](https://vimeo.com).
 
 -----------
