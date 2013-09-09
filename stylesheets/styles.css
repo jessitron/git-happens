@@ -1,6 +1,3 @@
-code {
-   color: red;
-}
 /*
 Leap Day for Github Pages
 by Matt Graham
@@ -594,45 +591,27 @@ blockquote {
   font-style: italic;
 }
 
-code {
+pre code {
+  display: block;
   color: #000;
   font-family: Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 12px;
-  font-weight: inherit;
-  overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
-  white-space: pre-wrap; /* css-3 */
-  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */
-  white-space: -o-pre-wrap; /* Opera 7 */
+  /*font-weight: inherit;*/
+  /*overflow-x: auto; [> Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 <]*/
+  /*white-space: pre-wrap; [> css-3 <]*/
+  /*white-space: -moz-pre-wrap !important; [> Mozilla, since 1999 <]*/
+  /*white-space: -pre-wrap; [> Opera 4-6 <]*/
+  /*white-space: -o-pre-wrap; [> Opera 7 <]*/
   /*messes up flow* width: 99%; /* remove horizontal scroll-bar when viewing in IE7 */
-  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  /*word-wrap: break-word; [> Internet Explorer 5.5+ <]*/
 
   background: #f3f3f7;
   border: 1px solid #dedee3;
   padding: 11px;
-  font-size: 12px;
+  /*font-size: 12px;*/
   line-height: 1.3em;
   margin-bottom: 22px;
   overflow: auto;
-}
-
-
-pre {
-  padding: 8px 15px;
-  background: #333333;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-  border: 1px solid #c7c7c7;
-  overflow: auto;
-  overflow-y: hidden;
-}
-pre code {
-  margin: 0px;
-  padding: 0px;
 }
 
 table {
