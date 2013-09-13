@@ -1,5 +1,5 @@
 ---
-layout: illuminated
+layout: default
 saying: If you close your eyes, you can still smell it.
 ---
 # Ignoring files in git

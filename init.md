@@ -1,5 +1,5 @@
 ---
-layout: illuminated
+layout: default
 saying: Come out smelling like roses.
 ---
 
