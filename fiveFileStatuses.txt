@@ -10,14 +10,14 @@ I think of them like this: you make your changes, then you put some of them on a
 
 -- picture of three places --
 
-Three places for files, it's one more than subversion, but not so bad. However, after much confusion and cursing, I have learned that there are at least five. 
+Three places for files, it's one more than subversion, but not so bad. However, after much confusion and cursing, I have learned that there are at least five.
 
 To start with, take a look at git status:
 
 -- picture of git status with boxes --
 
 Git status compares the staging area and the working directory with the most recent commit (HEAD).
-This shows changes that are staged, modified, and untracked. 
+This shows changes that are staged, modified, and untracked.
 
 What is the difference between modified and untracked? Ay, there's the rub. Untracked files do not exist at all in the HEAD commit.
 
@@ -30,10 +30,11 @@ Untracked files are new to git -- that is, they're not in the HEAD commit; they 
 1. git add to put them in the staging area. This tells git to care about them. From here, you can stash them or commit them. IntelliJ IDEA asks me, when I create a new file, "Do you want to add this to git?" I used to tell it, no, go away and leave me alone! But now I realize that my IDE was right: it's better to have these files in the staging area than in this never-never-land of untrackedness.
 
 2. Ignore them. Here you have two more options:
-    1. Ignore them in this repository. Do this if they're specific to the project. Maybe they're a node module install, or they're generated output of the build. If everyone on the team should be ignoring these files, and you never want to see someone accidentally commit them, do this. 
+    1. Ignore them in this repository. Do this if they're specific to the project. Maybe they're a node module install, or they're generated output of the build. If everyone on the team should be ignoring these files, and you never want to see someone accidentally commit them, do this.
     2. Ignore them in every repository that you personally commit to. If your favored editor creates .swp files or your operating system creates .DS_Store files, you want to add those to your personal global list of exclusions.
 
-Here is more information, including details on how to ignore the files: http://jessitron.github.com/git-happens/ignore.html
+Here is more information, including details on how to ignore the files:
+http://jessitron.github.com/git-happens/exercises/ignore.html
 
 It's a good idea to get those files right into ignored status before ever committing them. If you decide to ignore files after they're committed, they wind up in two states at the same time: modified and ignored. Use git rm on them to rectify this.
 
