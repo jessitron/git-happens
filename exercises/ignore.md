@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: illuminated
 saying: If you close your eyes, you can still smell it.
 ---
 # Ignoring files in git
@@ -57,7 +57,7 @@ If there are some files you want to ignore but someone else might not, then put 
 
 If you commit files and later decide to ignore them, you have to delete them from the repository. Git can't just forget about files it knows and loves.
 
-    git rm -f <file or directory you want to ignore>    
+    git rm -f <file or directory you want to ignore>
 
 > git rm says "Officially delete this file from the repository." For ignored files, this deletion is separate from whether the file still exists in your current directory. (todo: show git status) Comitting this will make the file untracked. Ideally, do this in the same commit as updating .gitignore.
 
