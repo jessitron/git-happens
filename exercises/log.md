@@ -70,8 +70,8 @@ other useful options:
 
 ### Q2: Zooming in on context
 
-#### Q2A: Say we're interested in ancient history. List all commits since May
-31st, 2011.
+#### Q2A: Ancient history.
+List all commits since May 31st, 2011.
 
 one answer:
 
@@ -96,7 +96,7 @@ commit like this, and you can choose this too, with git merge --no-ff.
 
 one answer:
 
-   git log --graph --format=short ea63787ea
+    git log --graph --format=short ea63787ea
 
 
 #### Q2C: Follow the first parents down
@@ -107,8 +107,8 @@ should be af28cf6d1 "Fixed issue #86".
 
 one answer:
 
-   git log -1 ea63787ea~
-   git log -1 ea63787ea~~
+    git log -1 ea63787ea~
+    git log -1 ea63787ea~~
 
 -1 means "stop after one commit." Other numbers work too.
 
@@ -164,7 +164,7 @@ ea63787ea. (Read the commit address backwards.)
 
 Display the contents of that file:
 
-   git show e19204e093:src/test/scala/org/scalacheck/GenSpecification.scala
+    git show e19204e093:src/test/scala/org/scalacheck/GenSpecification.scala
 
 git show is a useful way to display whatever's in a file, at any commit.
 
