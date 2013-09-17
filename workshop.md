@@ -15,25 +15,21 @@ If you've not used git before, consider spending an hour:
 * Part 1: concepts, vocabulary, and the local repository
   * [Prezi](http://prezi.com/m_s_g83sgja4/git-illuminated-part-1/)
   * Exercises
+    * [Moving commits to a branch](exercises/moveToBranch.html)
+    * [Playing around with config](exercises/playWithConfig.html)
   * [Get off the happy path](exercises/untrackedFiles.html)
 * Part 2: remotes, rebases, and changing history
   * [Prezi](http://prezi.com/ohbicklatr7y/git-illuminated-part-2/)
   * Exercises
+     * [Commit date != author date](exercises/commitDate.html)
+     * [Amend a commit](exercises/amend.html)
   * Get off the happy path
-* Part 3: workflows
-
+* Part 3: navigating the history
+  * Exercises
+     * [Logs and revisions](exercises/log.html)
+* Part 4: workflows
   * [Slides](http://www.slideshare.net/jessitron/3-workflow)
 
-
-## Exercises after part 1:
-
-* [Moving commits to a branch](exercises/moveToBranch.html)
-* [Playing around with config](exercises/playWithConfig.html)
-
-## Exercises after part 2:
-
-* [Commit date != author date](exercises/commitDate.html)
-* [Amend a commit](exercises/amend.html)
 
 # Further resources
 are listed on the [Git Happens](index.html) page
