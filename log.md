@@ -18,12 +18,13 @@ where format can include these special variables:
    * committer: name (%cn) and email (%ce)
    * dates:
 <table>
-<tr><td>Example<td></td>author</td><td>commit</td></tr>
-<tr>Tue Sep 3 19:36:09 2013 +0200</td><td>ad</td><td>cd</td></tr>
-<tr>Tue, 3 Sep 2013 19:36:09 +0200</td><td>aD</td><td>cD</td></tr>
-<tr>13 days ago</td><td>ar</td><td>cr</td><td>relative</td></tr>
-<tr>2013-09-03 19:36:09 +0200</td><td>ai</td><td>ci</td><td>sortable</td></tr>
-<tr>1378229769</td><td>at</td><td>ct</td><td>Unix timestamp</td></tr>
+  <tr><td>Example<td></td>author</td><td>commit</td></tr>
+  <tr><td>Tue Sep 3 19:36:09 2013 +0200</td><td>ad</td><td>cd</td></tr>
+  <tr><td>Tue, 3 Sep 2013 19:36:09 +0200</td><td>aD</td><td>cD</td></tr>
+  <tr><td>13 days ago</td><td>ar</td><td>cr</td><td>relative</td></tr>
+  <tr><td>2013-09-03 19:36:09 +0200</td><td>ai</td><td>ci</td><td>sortable</td></tr>
+  <tr><td>1378229769</td><td>at</td><td>ct</td><td>Unix timestamp</td></tr>
+</table>
    * branches and tags: %d (like --decorate)
    * useful characters
       * newline: %n
