@@ -3,17 +3,15 @@ layout: illuminated
 ---
 
 ## Setup
-### Create a local repository
-If you don't know how, check [these instructions](../init.html)
+
+Here's a handy repository to clone: https://github.com/jessitron/demoRepo
 
 ### Make a few commits
-Edit a file, add your changes, and commit. For instance:
+Edit a file, add some changes, and commit. For instance:
 
-    touch sharks.txt
-    git add .
-    git commit -m "Created sharks"
-
-Repeat a few times. End with a commit message like "Halfway through a sticky feature"
+    echo "This is fun -me" >> comments.txt
+    git add comments.txt
+    git commit -m "Added my opinion to comments"
 
 ### Check the graph
 Do this all the time! "git status" and "git log" are your friend. Use these
@@ -25,6 +23,7 @@ branches, drawing a cute little ascii commit graph:
 
 there should be some commits. Nothing too interesting.
 
+
 ## Exercise 1: "I wish I'd made this commit on a branch"
 
 Oh no, a bug has occurred and it's time to postpone feature development.
@@ -33,7 +32,24 @@ You need to get back to where the code was one commit ago and work on the
 bug fix from there. If only you'd branched before you made this last
 commit!
 
-Here's one way to do it:
+Start from something like:
+
+    > git log --oneline --graph --decorate
+    * 39f437b (HEAD, master) Added my opinion
+    * 9f4f2bb (origin/master, origin/HEAD) Copied instructions here
+    ...
+
+Get to something like:
+
+    > git log --oneline --graph --decorate branchypoo
+    * 39f437b (branchypoo) Added my opinion
+    * 9f4f2bb (HEAD, origin/master, origin/HEAD, master) Copied instructions here
+    ...
+
+
+go!
+
+one answer:
 
 ### Step 1: create the feature branch you wish you had
 We want to create a pointer, but we don't want to switch to that branch.
