@@ -138,7 +138,7 @@ test.
 
 one answer:
 
-    (*git log ea63787ea^..ea63787ea^2*)
+    git log ea63787ea^..ea63787ea^2
 
 this says "all the commits on the second parent that aren't in the
 history of the first."
