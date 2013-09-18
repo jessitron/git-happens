@@ -23,6 +23,7 @@ Any of these can show you the commit graph.
 
 # Workflows
 * [Git-flow explained by me](http://blog.jessitron.com/2012/07/skinny-on-git-flow.html)
+* [Github's internal strategy](http://scottchacon.com/2011/08/31/github-flow.html)
 
 # Reference
 * [cheat-sheet style command summary](http://cheat.errtheblog.com/s/git)

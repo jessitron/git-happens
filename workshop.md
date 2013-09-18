@@ -5,25 +5,28 @@ layout: illuminated
 # Agenda
 
 * __Part 1__: concepts, vocabulary, and the local repository
-  * [Prezi](http://prezi.com/m_s_g83sgja4/git-illuminated-part-1/)
+  * [Prezi](http://prezi.com/fqup7vaiy-4x/part-1-of-git-illuminated/)
   * _Exercises:_
     * [Moving commits to a branch](exercises/moveToBranch.html)
-    * [Playing around with config](exercises/playWithConfig.html)
-    * [Get off the happy path: untracked files](exercises/untrackedFiles.html)
+    * (optional) [Playing around with config](exercises/playWithConfig.html)
+    * (optional) [Get off the happy path with untracked files](exercises/untrackedFiles.html)
+  * Together: a merge conflict
 * __Part 2__: remotes, rebases, and changing history
   * [Prezi](http://prezi.com/ohbicklatr7y/git-illuminated-part-2/)
   * _Exercises:_
      * [Commit date != author date](exercises/commitDate.html)
      * [Amend a commit](exercises/amend.html)
-  * Get off the happy path
+  * Together: an interactive rebase
 * __Part 3__: navigating the history
+
+  * [Prezi](http://prezi.com/cgythb5u_8mk/part-3-of-git-illuminated/)
 
   * _Exercises:_
 
     * [Logs and revisions](exercises/log.html)
 * __Part 4__: workflows
 
-  * [Slides](http://www.slideshare.net/jessitron/3-workflow)
+  * [Slides](http://www.slideshare.net/jessitron/part-4-of-git-illuminated)
 
 # Prep
 This workshop is not Your First Git Repository.
