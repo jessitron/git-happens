@@ -28,7 +28,7 @@ Here is one way to do it:
 This says "Put head back where it was before my last operation." You
 could also say
 
-   git reset HEAD^
+    git reset HEAD^
 
 which says "Put head back at the first parent."
 In either case, your git status should now show untracked files,

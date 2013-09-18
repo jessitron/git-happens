@@ -30,7 +30,7 @@ one answer:
 
 This should display four commits, and some changes in each one.
 
--G&gtregex&lt means "show only commits with this phrase in the diff"
+-G&lt;regex&gt; means "show only commits with this phrase in the diff"
 
 -p means "show the patch that represents the changes in this commit"
 
