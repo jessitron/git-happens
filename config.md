@@ -5,7 +5,10 @@ saying: Some people mistake it for a snack.
 
 # Configuration
 
-Where is it all?
+This page describes git's configuration system. For recommendations of what to put in there,
+look in [Recommended config](config_rec.html)
+
+##Where is it all?
 
 This documents where configuration files are located, but don't bother
 looking at them. Ask git to tell you what
@@ -22,13 +25,13 @@ to your current repository, to your user, or to everyone on your
 computer. More specific levels will override broader levels.
 
 
-## Repository-level
+### Repository-level
 
     git config --local -l
 
 This goes in a file at $GIT_CONFIG or .git/config
 
-## User-level
+### User-level
 
     git config --global -l
 
@@ -38,7 +41,7 @@ OR, if that doesn't exist and this other one does, it'll go to
 $XDG_CONFIG_HOME/git/config, where XDG_CONFIG_HOME defaults to
 ~/.config.
 
-## system level
+### system level
 
     git config --system -l
 
