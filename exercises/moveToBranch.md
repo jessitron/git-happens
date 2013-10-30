@@ -4,7 +4,11 @@ layout: illuminated
 
 ## Setup
 
-Here's a handy repository to clone: https://github.com/jessitron/demoRepo
+Here's a handy repository to clone:
+
+   git clone https://github.com/jessitron/demoRepo
+
+You'll start out on the master branch.
 
 ### Make a few commits
 Edit a file, add some changes, and commit. For instance:
@@ -32,20 +36,21 @@ You need to get back to where the code was one commit ago and work on the
 bug fix from there. If only you'd branched before you made this last
 commit!
 
-Start from something like:
+Here's your starting point: your master branch is one commit ahead of
+origin/master:
 
     > git log --oneline --graph --decorate
     * 39f437b (HEAD, master) Added my opinion
     * 9f4f2bb (origin/master, origin/HEAD) Copied instructions here
     ...
 
-Get to something like:
+Here's the goal: this latest commit is on a branch, and your master
+branch pointer is back to the same commit as origin/master:
 
     > git log --oneline --graph --decorate branchypoo
     * 39f437b (branchypoo) Added my opinion
     * 9f4f2bb (HEAD, origin/master, origin/HEAD, master) Copied instructions here
     ...
-
 
 go!
 
@@ -103,9 +108,7 @@ if that's the last commit you want to keep, great.
 ## Variation B
 "I want master to match what's on origin"
 
-(no, we haven't covered this, but a lot of you probably have this
-question)
-I do this a lot. Branch to save current work, and then:
+I do this a lot. Commit and branch to save current work, and then:
 
     git reset --hard origin/master
 
