@@ -6,7 +6,8 @@ layout: illuminated
 
 Here's a handy repository to clone:
 
-   git clone https://github.com/jessitron/demoRepo
+    git clone https://github.com/jessitron/demoRepo
+    cd demoRepo
 
 You'll start out on the master branch.
 
@@ -14,8 +15,20 @@ You'll start out on the master branch.
 Edit a file, add some changes, and commit. For instance:
 
     echo "This is fun -me" >> comments.txt
+
+This adds the text to the file. You don't have to use that to make the
+change, just do something. Check "git status" to see that a change was
+noticed.
+
     git add comments.txt
+
+This puts that change into the staging area. Check this with "git
+status".
+
     git commit -m "Added my opinion to comments"
+
+This creates a commit with the changes in the staging area. "-m"
+supplies a commit messsage.
 
 ### Check the graph
 Do this all the time! "git status" and "git log" are your friend. Use these
