@@ -86,7 +86,8 @@ in my working directory"
     git reset --hard HEAD^
 
 --hard means "set my working directory too."
-^ means "the first parent"
+^ means "the first parent". If your terminal doesn't like this
+character, ~ will work instead.
 
 ### Step 3: check your work
 To see the whole result, check the decorated log of the new branch.
