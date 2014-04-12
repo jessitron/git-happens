@@ -41,8 +41,9 @@ is: it provides safety and lets us experiment. Save something, make
 changes, and always know you can change your mind. Track what you did.
 
 Other benefits:
-   * easy and fast backups.
-   * everyone can work at the same time, on separate computers, with no locking.
+
+ * easy and fast backups.
+ * everyone can work at the same time, on separate computers, with no locking.
 
 ## What's the downside?
 
