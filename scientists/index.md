@@ -7,6 +7,10 @@ saying: Try it, try it, Sam I Am!
 
 This is created for Software Carpentry's WISE bootcamp, 14 Apr 14.
 
+[Software Carpentry's
+lessons](http://swcarpentry.github.io/2014-04-14-wise/novice/git/)
+are a good intro if you want to read ahead.
+
 ## What is git?
 
 Git is a version control system. It's the current top-of-the-line one,
