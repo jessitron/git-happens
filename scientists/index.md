@@ -143,17 +143,15 @@ should save this first, so I can change my mind later. And tell when I
 changed it, and why." The save button in your editor writes it to a file
 that can change. Version control preserves it forever, like a museum,
 with little signs in front of it explaining it to users.
-
 <a
 href="http://www.tripadvisor.com/LocationPhotoDirectLink-g32655-d103412-i90615363-Natural_History_Museum_of_Los_Angeles_County-Los_Angeles_California.html#90615363"><img
 alt=""
 src="http://media-cdn.tripadvisor.com/media/photo-s/05/66/ae/43/natural-history-museum.jpg"/></a><br/>This
 photo of Natural History Museum of Los Angeles County is courtesy of
 TripAdvisor
-
 5. Create a git repository to preserve stuff in this directory.
 
-     git init
+         git init
 
 6. Check the status. I type `git status` about every other command. Also
 check `ls -a`, and see the new `.git` directory. You never need to use
