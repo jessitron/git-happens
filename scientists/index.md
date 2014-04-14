@@ -110,10 +110,10 @@ After installing git, there are a few one-time configuration commands that tell
 git who you are. Please replace the name and email with yours, and the
 editor "nano" with whatever is your favorite.
 
-      git config --global user.name "Vlad Dracula"
-      git config --global user.email "vlad@tran.sylvan.ia"
-      git config --global color.ui "auto"
-      git config --global core.editor "nano"
+        git config --global user.name "Vlad Dracula"
+        git config --global user.email "vlad@tran.sylvan.ia"
+        git config --global color.ui "auto"
+        git config --global core.editor "nano"
 
 ### Your First Repo
 
@@ -122,19 +122,19 @@ Windows.
 
 1. Make a directory, a whole new directory, to be the project root.
 
-      mkdir poetry
+        mkdir poetry
 
 2. Go into that directory. Most git commands are best executed when
 you're at project root.
 
-      cd poetry
+        cd poetry
 
 3. Create a file in that directory, representing the initial version of
 your work or program. (I'm going to construct a poem.)
 
-      nano poem.txt
-      (insert text "The old crow is getting slow")
-      (save and quit)
+        nano poem.txt
+        (insert text "The old crow is getting slow")
+        (save and quit)
 
 4. List the files in the directory. you should see only poem.txt
 
@@ -152,7 +152,7 @@ TripAdvisor
 
 5. Create a git repository to preserve stuff in this directory.
 
-      git init
+        git init
 
 6. Check the status. I type `git status` about every other command. Also
 check `ls -a`, and see the new `.git` directory. You never need to use
@@ -160,7 +160,7 @@ that, but feel reassured that museum specimens are stored there.
 7. "Untracked files" is a bad thing. Tell git that yes, we want it to
 babysit this file, and we're about to save it.
 
-          git add poem.txt
+        git add poem.txt
 
 8. Check the status. Git now has this file, in its current state, on its
 preservation station, ready for carbon freeze.
@@ -168,8 +168,8 @@ preservation station, ready for carbon freeze.
 that's where you'll fill in the sign, explain the purpose of these
 changes.
 
-         git commit
-      (type a commit message, save and commit)
+        git commit
+        (type a commit message, save and commit)
 
 10. Check the status. It is all clear.
 11. Now it's finally time to make that change. Edit the file and add a
@@ -181,7 +181,7 @@ make a commit quickly. The `-a` option to `commit` means "include all
 outstanding changes to existing files." The `-m` option means "Here
 comes a commit message right here."
 
-       git commit -am "Added line 2 to poem"
+        git commit -am "Added line 2 to poem"
 
 14. Check the status. All clear.
 15. Now pretend it's a week later, and we come back and ask, what was I
@@ -191,7 +191,7 @@ log inside `less`, which is a program for viewing files longer than the
 screen. This won't make a difference when our log is so short. Later on,
 you can hit `q` to exit without scrolling through the whole log.
 
-      git log
+        git log
 
 If these are the only commands you know, this is sufficient to preserve
 the history of your project, and retain reproducibility. `git add` new
@@ -205,15 +205,15 @@ to a previous state.
 1. Identify a saved game by its commit name
 2. Show the changes that happened in that commit
 
-      git log -p <commit>
+        git log -p <commit>
 
 3. Show the difference between that commit and the last commit
 
-      git diff <commit>..HEAD
+        git diff <commit>..HEAD
 
 4. Go back to that saved game.
 
-      git checkout <commit>
+        git checkout <commit>
 
 5. Check the status. What is this detached HEAD state?? It says, if
 you're going to save any new games from this point, you need to name
@@ -227,7 +227,7 @@ Or, alternate histories in the museum.
 2. The current-place bookmark: HEAD
 3. See how the branches relate
 
-      git log --graph --oneline --decorate --all
+        git log --graph --oneline --decorate --all
 
 4. Switching branches
 5. Bringing changes into master with fast-forward
@@ -264,7 +264,7 @@ yourself, but it's essential when you collaborate with other people.
 3. Add bitbucket as a remote.
 4. Push the contents of your repository up.
 
-      git push -u <bitbucket url>
+        git push -u <bitbucket url>
 
 5. See your work on bitbucket.
 6. In the terminal, edit the poem.txt again. Add another line.
@@ -285,7 +285,7 @@ Choose one person's repository to collaborate on.
 2. The repository owner: give update permissions to the other person or people.
 3. Everyone else: clone the shared repository.
 
-      git clone <bitbucket url>
+        git clone <bitbucket url>
 
 8. Check the status and the log. Everyone should see the same stuff.
 9. One person, create a file name.txt.
