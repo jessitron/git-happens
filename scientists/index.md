@@ -149,6 +149,7 @@ alt=""
 src="http://media-cdn.tripadvisor.com/media/photo-s/05/66/ae/43/natural-history-museum.jpg"/></a><br/>This
 photo of Natural History Museum of Los Angeles County is courtesy of
 TripAdvisor
+
 5. Create a git repository to preserve stuff in this directory.
 
       git init
@@ -159,7 +160,7 @@ that, but feel reassured that museum specimens are stored there.
 7. "Untracked files" is a bad thing. Tell git that yes, we want it to
 babysit this file, and we're about to save it.
 
-      git add poem.txt
+          git add poem.txt
 
 8. Check the status. Git now has this file, in its current state, on its
 preservation station, ready for carbon freeze.
@@ -167,7 +168,7 @@ preservation station, ready for carbon freeze.
 that's where you'll fill in the sign, explain the purpose of these
 changes.
 
-      git commit
+         git commit
       (type a commit message, save and commit)
 
 10. Check the status. It is all clear.
@@ -180,7 +181,7 @@ make a commit quickly. The `-a` option to `commit` means "include all
 outstanding changes to existing files." The `-m` option means "Here
 comes a commit message right here."
 
-      git commit -am "Added line 2 to poem"
+       git commit -am "Added line 2 to poem"
 
 14. Check the status. All clear.
 15. Now pretend it's a week later, and we come back and ask, what was I
