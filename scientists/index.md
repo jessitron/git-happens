@@ -110,10 +110,10 @@ After installing git, there are a few one-time configuration commands that tell
 git who you are. Please replace the name and email with yours, and the
 editor "nano" with whatever is your favorite.
 
-    git config --global user.name "Vlad Dracula"
-    git config --global user.email "vlad@tran.sylvan.ia"
-    git config --global color.ui "auto"
-    git config --global core.editor "nano"
+     git config --global user.name "Vlad Dracula"
+     git config --global user.email "vlad@tran.sylvan.ia"
+     git config --global color.ui "auto"
+     git config --global core.editor "nano"
 
 ### Your First Repo
 
@@ -122,19 +122,19 @@ Windows.
 
 1. Make a directory, a whole new directory, to be the project root.
 
-    mkdir poetry
+     mkdir poetry
 
 2. Go into that directory. Most git commands are best executed when
 you're at project root.
 
-    cd poetry
+     cd poetry
 
 3. Create a file in that directory, representing the initial version of
 your work or program. (I'm going to construct a poem.)
 
-    nano poem.txt
-    (insert text "The old crow is getting slow")
-    (save and quit)
+     nano poem.txt
+     (insert text "The old crow is getting slow")
+     (save and quit)
 
 4. List the files in the directory. you should see only poem.txt
 
@@ -153,7 +153,7 @@ TripAdvisor
 
 5. Create a git repository to preserve stuff in this directory.
 
-    git init
+     git init
 
 6. Check the status. I type `git status` about every other command. Also
 check `ls -a`, and see the new `.git` directory. You never need to use
@@ -182,7 +182,7 @@ make a commit quickly. The `-a` option to `commit` means "include all
 outstanding changes to existing files." The `-m` option means "Here
 comes a commit message right here."
 
-    git commit -am "Added line 2 to poem"
+     git commit -am "Added line 2 to poem"
 
 14. Check the status. All clear.
 15. Now pretend it's a week later, and we come back and ask, what was I
@@ -192,7 +192,7 @@ log inside `less`, which is a program for viewing files longer than the
 screen. This won't make a difference when our log is so short. Later on,
 you can hit `q` to exit without scrolling through the whole log.
 
-    git log
+     git log
 
 If these are the only commands you know, this is sufficient to preserve
 the history of your project, and retain reproducibility. `git add` new
@@ -206,7 +206,7 @@ to a previous state.
 1. Identify a saved game by its commit name
 2. Show the changes that happened in that commit
 
-    git log -p <commit>
+     git log -p <commit>
 
 3. Show the difference between that commit and the last commit
 
@@ -286,7 +286,7 @@ Choose one person's repository to collaborate on.
 2. The repository owner: give update permissions to the other person or people.
 3. Everyone else: clone the shared repository.
 
-    git clone <bitbucket url>
+     git clone <bitbucket url>
 
 8. Check the status and the log. Everyone should see the same stuff.
 9. One person, create a file name.txt.
