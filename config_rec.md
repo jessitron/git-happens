@@ -39,12 +39,12 @@ origin/master by default.
 
 When I say "git push" I want only my current branch to go.
 
-    Git 1.8: git config --global push.default=simple
+    Git 1.8: git config --global push.default simple
 
-    older Git: git config --global push.default=current
+    older Git: git config --global push.default current
 
 
 ### Other
 
-    core.excludesfile=/Users/jjkerr/.gitignore
-    color.ui=true
+    git config --global core.excludesfile $HOME/.gitignore
+    git config --global color.ui true

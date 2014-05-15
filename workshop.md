@@ -4,6 +4,8 @@ layout: illuminated
 
 # Agenda
 
+Setup: [One-time git configuration](commence.html)
+
 * __Part 1__: concepts, vocabulary, and the local repository
   * [Prezi](http://prezi.com/fqup7vaiy-4x/part-1-of-git-illuminated/)
   * _Exercises:_
