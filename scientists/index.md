@@ -5,8 +5,6 @@ saying: Try it, try it, Sam I Am!
 
 # Git for Scientists
 
-This is created for Software Carpentry's WISE bootcamp, 14 Apr 14.
-
 [Software Carpentry's
 lessons](http://swcarpentry.github.io/2014-04-14-wise/novice/git/)
 are a good intro if you want to read ahead.
@@ -262,6 +260,9 @@ yourself, but it's essential when you collaborate with other people.
 1. Create an account at bitbucket
 2. Create a new repository on bitbucket
 3. Add bitbucket as a remote.
+
+        gu
+
 4. Push the contents of your repository up.
 
         git push -u <bitbucket url>
